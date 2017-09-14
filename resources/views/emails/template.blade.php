@@ -9,9 +9,9 @@
 <body>
     <h1>Contacto desde La Web</h1>
     <ul>
-        <li>Nombre: {{ $name }}</li>
-        <li>Email: {{ $email }}</li>
-        <li>Mensaje: {{ $message }}</li>
+        <li>Nombre: {{ $data["name"] }}</li>
+        <li>Email: {{ $data["email"] }}</li>
+        <li>Mensaje: {{ $data["message"] }}</li>
     </ul>
 </body>
 </html>

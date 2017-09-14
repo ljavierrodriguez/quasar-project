@@ -39,7 +39,7 @@ $('.testimonials-slider').bxSlider({
      });
 	 
 //----Contact---//	 
-$(document).ready(function() { 
+/*$(document).ready(function() { 
 	 $('#Send').click(function() {  
 			// name validation
 			var nameVal = $("#name").val();
@@ -111,4 +111,4 @@ $(document).ready(function() {
 		$("#email").val('');
 		$("#message").val('');
 	 }
-});
+});*/

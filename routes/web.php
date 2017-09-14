@@ -16,7 +16,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'FrontendController@index')->name('pagina.principal');
-Route::get('/send-email', 'FrontendController@sendEmail')->name('send-email');
+Route::post('/send-email', 'FrontendController@sendEmail')->name('send-email');
 
 Route::resource('/banners', 'BannersController', ['names' => [
     'index' => 'banners',
